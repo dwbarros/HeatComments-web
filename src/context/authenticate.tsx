@@ -39,6 +39,9 @@ export function AuthProvider(props: AuthProvider) {
         const { token, user } = response.data;
 
         localStorage.setItem('@heatComments:token', token);
+
+        api.defaults.headers.common.authorization = `Bearer ${token}`;
+
         setUser(user);
     }
 
