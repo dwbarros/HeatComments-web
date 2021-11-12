@@ -1,5 +1,5 @@
 .sendMessageFormWrapper {
-    background: #1b1b1f;
+    background: #f1ecf0;
     padding: 24px;
     align-self: center;
   
@@ -9,12 +9,13 @@
     text-align: center;
   
     position: relative;
+    transform: translateY(-100px);
   }
   
   .signOutButton {
     background: transparent;
     border: 0;
-    color: #c4c4cc;
+    color: #b3a8b3;
   
     position: absolute;
     left: 24px;
@@ -42,7 +43,7 @@
         width: 94px;
         height: 94px;
         border-radius: 50%;
-        border: 6px solid #121214;
+        border: 6px solid #fff;
       }
     }
   
@@ -57,7 +58,7 @@
       align-items: center;
   
       margin-top: 8px;
-      color: #c4c4cc;
+      color: #968490;
   
       svg {
         margin-right: 8px;
@@ -71,12 +72,13 @@
     align-self: stretch;
     margin-top: 48px;
   
-    background: #202024;
+    background: #f5f1f0;
   
     label {
+      color: #423e41;
       padding: 18px 24px;
       font-size: 20px;
-      background: #29292e;
+      background: #ece5eb;
       font-weight: bold;
       text-align: left;
     }
@@ -87,7 +89,7 @@
       padding: 24px;
       resize: none;
       height: 160px;
-      color: #e1e1e6;
+      color: #423e41;
       font-size: 16px;
       line-height: 24px;
       
@@ -96,7 +98,7 @@
       }
   
       &::placeholder {
-        color: #8d8d99;
+        color: #6e6e77;
       }
     }
   

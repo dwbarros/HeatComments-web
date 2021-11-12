@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  .logoImg {
+    height: 56px;
+  }
+  
+  .title {
+    color: #555;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 20px;
+  }
+}
+

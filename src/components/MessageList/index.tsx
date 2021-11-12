@@ -1,9 +1,7 @@
-import styles from './styles.module.scss';
-import logoImg from '../../assets/logo.svg';
-
 import { useEffect, useState } from 'react';
 import { api } from '../../services/api';
 import { io } from 'socket.io-client';
+import styles from './styles.module.scss';
 
 type Message = {
     id: string,
@@ -49,8 +47,6 @@ export function MessageList() {
 
     return (
         <div className={styles.messageListWrapper}>
-            <img className={styles.logoImg} src={logoImg} alt="DoWhile 2021" />
-
             <ul className={styles.messageList}>
                 {messages.map(message => {
                     return (
